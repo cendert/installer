@@ -1,2 +1,0 @@
-# installer
-Created with CodeSandbox
