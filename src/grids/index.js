@@ -1,1 +1,1 @@
-export { mainGrid } from "./mainGrid";
+export { mainGridStyle } from "./mainGrid";

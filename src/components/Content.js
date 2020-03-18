@@ -6,6 +6,7 @@ const contentStyle = css({
   display: "flex",
   flexDirection: "column",
   gridArea: "content",
+  overflowY: "auto",
   padding: "1rem 0"
 });
 

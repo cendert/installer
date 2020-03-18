@@ -12,7 +12,7 @@ import {
   TitleBar,
   WizardNavigationBar
 } from "./components";
-import { mainGrid } from "./grids";
+import { mainGridStyle } from "./grids";
 import { fullscreen } from "./styles";
 
 const environments = [
@@ -35,7 +35,7 @@ const environments = [
 
 export default function App() {
   return (
-    <Grid gridTemplate={mainGrid} helperStyles={[fullscreen]}>
+    <Grid gridStyle={mainGridStyle([fullscreen])}>
       <TitleBar>hi</TitleBar>
       <SubTitleBar>troll</SubTitleBar>
       <Content>
